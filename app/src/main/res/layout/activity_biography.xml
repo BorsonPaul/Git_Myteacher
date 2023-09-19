@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFECDD"
+    android:orientation="vertical"
+
+    tools:context=".Biography">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:background="#F57F17"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="6dp"
+            android:onClick="home"
+            android:src="@drawable/smallphoto" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:padding="15dp"
+            android:text="Subhag Swami"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="His Holiness Subhag Swami was born in Kolkata, Srila Prabhupada’s home town. He spent most of his early life in Kolkata and completed his college from Calcutta Scottish Church College where in 1916 Srila Prabhupada had studied English, Sanskrit, Economics and Philosophy. In 1965 Srila Prabhupada left for USA and His Holiness left India to study in London. While studying there His Holiness was introduced to Krishna Consciousness and soon joined Radha Londonisvara temple in it's early days. From the first meeting with Srila A.C. Bhaktivedanta Swami Prabhupada, His Holiness was engaged in Srila Prabhupada’s personal service (cooking, serving prasad, correspondence, etc.) and also in different other services in ISKCON. Specifically, under the direct instruction from Srila Prabhupada, His Holiness translated different scriptures from Sanskrit and Bengali to English and also Srila Prabhupada's books from English to Bengali. Some of the books include 'Chaitanya Mangal', 'Anand Vrindavan Campu', 'Advaita Prakash' and others. His Holiness has been based in Sridham Mayapur for last 40 years out of his 46 years in ISKCON. He is one of the present gurus and a prominent senior leader of ISKCON."
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="পরম পবিত্র সুভাগ স্বামী শ্রীল প্রভুপাদের নিজ শহর কলকাতায় জন্মগ্রহণ করেন। তিনি তাঁর প্রাথমিক জীবনের বেশিরভাগ সময় কলকাতায় কাটিয়েছেন এবং কলকাতা স্কটিশ চার্চ কলেজ থেকে তাঁর কলেজ শেষ করেছেন যেখানে 1916 সালে শ্রীল প্রভুপাদ ইংরেজি, সংস্কৃত, অর্থনীতি এবং দর্শন অধ্যয়ন করেছিলেন। 1965 সালে শ্রীল প্রভুপাদ মার্কিন যুক্তরাষ্ট্রে চলে যান এবং পরম পবিত্রতা লন্ডনে অধ্যয়নের জন্য ভারত ত্যাগ করেন। সেখানে অধ্যয়নের সময় পরম পবিত্রতা কৃষ্ণ চেতনার সাথে পরিচিত হন এবং শীঘ্রই প্রথম দিনগুলিতে রাধা লন্ডনীশ্বর মন্দিরে যোগদান করেন। শ্রীল এ.সি. ভক্তিবেদান্ত স্বামী প্রভুপাদের সাথে প্রথম সাক্ষাত থেকে, পরম পবিত্রতা শ্রীল প্রভুপাদের ব্যক্তিগত সেবায় (রান্না, প্রসাদ পরিবেশন, চিঠিপত্র ইত্যাদি) এবং ইসকনের অন্যান্য বিভিন্ন সেবায় নিযুক্ত ছিলেন। বিশেষ করে, শ্রীল প্রভুপাদের প্রত্যক্ষ নির্দেশে, পরম পবিত্রতা সংস্কৃত এবং বাংলা থেকে ইংরেজিতে এবং শ্রীল প্রভুপাদের বইগুলি ইংরেজি থেকে বাংলায় অনুবাদ করেছেন। কয়েকটি বইয়ের মধ্যে রয়েছে 'ৈচতন্য মঙ্গল', 'আনন্দ বৃন্দাবন ক্যাম্পু', 'অদ্বৈত প্রকাশ' এবং অন্যান্য। ইসকনে তাঁর 46 বছরের মধ্যে গত 40 বছর ধরে মহামানব শ্রীধাম মায়াপুরে অবস্থান করছেন। তিনি বর্তমান গুরুদের একজন এবং ইসকনের একজন বিশিষ্ট সিনিয়র নেতা।"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

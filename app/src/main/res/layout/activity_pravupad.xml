@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".pravupad">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:background="#F57F17"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="6dp"
+            android:onClick="home"
+            android:src="@drawable/smallphoto" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:padding="15dp"
+            android:text="Subhag Swami"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/pravupada" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Srila Prabhupada, known as His Divine Grace A. C. Bhaktivedanta Swami Prabhupada, appeared in this world in Calcutta, India on Nandotsava, the annual festival day celebrating Krishna's birth, in the year of 1896. His father was a pure devotee of Lord Krishna who would always invite holy men to his house for meals and ask them to bless his son to become a great devotee of Radharani, Lord Krishna's most beloved devotee and consort. Srila Prabhupada's father once bought him a small cart to pull the Deity of Lord Jagannatha, as they do during the great Rathayatra festival in Jagannatha Puri. So even as a child Srila Prabhupada would organize little festivals centered around Krishna in his neighborhood.
+
+Prabhupada later attended Scottish Church College in Calcutta, which was administered by the British. Later, he joined Gandhi's Non-cooperation Movement and refused to accept his diploma from that college as a type of protest, although he had actually completed all the requirements for the degree. After this, a friend of his father, Dr. Bose, made him a manager of his chemical company.
+
+Thereafter, in 1918, Prabhupada became married and soon started a family.He first met his spiritual master, Srila Bhaktisiddhanta Sarasvati Gosvami, in Calcutta in 1922. Bhaktisiddhanta Sarasvati, a prominent religious scholar and the founder of sixty-four Gaudiya Mathas (Vedic institutes), liked this educated young man and convinced him to dedicate his life to teaching Vedic knowledge.
+
+Srila Prabhupada became his student, and eleven years later (1933) at Allahabad he became his formally initiated disciple. At their first meeting, in 1922, Srila Bhaktisiddhanta Sarasvati requested Srila Prabhupada to broadcast Vedic knowledge through the English language. In the years that followed, Srila Prabhupada wrote a commentary on the Bhagavad-gita, and in 1944 started 'Back to Godhead', an English fortnightly magazine. Maintaining the publication was a struggle. Single-handedly, Srila Prabhupada edited it, typed the manuscripts, checked the galley proofs, and even distributed the individual copies. Once begun, the magazine never stopped; it is now being continued by his disciples in the West and is published in over thirty languages.Recognizing Prabhupada's philosophical learning and devotion, the Gaudiya Vaishnava Society honored him in 1947 with the title 'Bhaktivedanta'.
+
+On the order of his spiritual master, His Divine Grace A.C. Bhaktivedanta Swami Prabhupada began translating and writing Vedic literature in the English language to bring the message of Lord Krishna to the Western countries. In 1950, at the age of fifty-four, Srila Prabhupada retired from married life, adopting the vanaprastha (retired) order to devote more time to his studies and writing. Srila Prabhupada traveled to the holy city of Vrindavana, where he lived in very humble circumstances in the historic medieval temple of Radha-Damodara. There he engaged for several years in deep study and writing. He accepted the renounced order of life (sannyasa) in 1959. At Radha-Damodara, Srila Prabhupada began work on his life's masterpiece: a multivolume annotated translation of the eighteen-thousand-verse Srimad-Bhagavatam. He also wrote 'Easy Journey to Other Planets'.
+
+After publishing three volumes of the Bhagavatam, Srila Prabhupada came to the United States of America, in September 1965, to fulfill the mission of his spiritual master. Subsequently, His Divine Grace wrote more than sixty volumes of authoritative annotated translations and summary studies of the philosophical and religious classics of India.When he first arrived by freighter in New York City, Srila Prabhupada was practically penniless.
+
+Only after almost a year of great difficulty did he establish the International Society for Krishna Consciousness, in July of 1966.Thereafter, he continued to distribute this spiritual knowledge and the process of singing and chanting Hare Krishna all over the world. He traveled around the world 12 times and visited every major country to take bhakti-yoga and harinama sankirtana to the western countries. He gave thousands of lectures, wrote thousands of letters, and met with many important scholars and dignitaries who very much appreciated his efforts. Therefore, it was Srila Prabhupada who had been predicted by the previous acharyas, and by Sri Caitanya, and even by Lord Krishna in the ancient Puranas, as the person who would spread this new spiritual awareness.
+
+Before his passing away on November 14, 1977, he guided the Society and saw it grow to a worldwide confederation of more than one hundred ashramas, schools, temples, institutes and farm communities.Srila Prabhupada also inspired the construction of several large international cultural centers in India. The center at Sridhama Mayapur in West Bengal is the site for a planned spiritual city, an ambitious project for which construction will extend over many years to come.
+
+In Vrindavana, India, is the magnificent Krishna-Balarama Temple with an International Guesthouse, and the Srila Prabhupada Memorial and Museum. There is also a major cultural and educational center in Bombay. Other centers are planned in a dozen important locations on the Indian subcontinent. Srila Prabhupada's most significant contribution, however, is his books. Highly respected by the academic community for their authority, depth and clarity, they are used as standard textbooks in numerous college courses. His writings have been translated into over fifty languages.
+
+The Bhaktivedanta Book Trust, established in 1972 to publish the works of His Divine Grace, has thus become the world's largest publisher of books in the field of Indian religion and philosophy.In just twelve years, in spite of his advanced age, Srila Prabhupada circled the globe fourteen times on lecture tours that took him to six continents. In spite of such a vigorous schedule, Srilla Prabhupada continued to write prolifically. His writings constitute a veritable library of Vedic philosophy, religion, literature and culture.He wrote 51 volumes of books with translations in 28 languages, especially Bhagavad-gita and Srimad-Bhagavatam, so anyone can take advantage of this knowledge.
+
+He established 108 temples in most major cities around the world, and touched so many people who can also teach this philosophy that this genuine spiritual knowledge, as predicted in the ancient Puranic literature, will continue to spread and be available for at least the next 10,000 years."
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="শ্রীল প্রভুপাদ ১৮৯৬ সালে নন্দোৎসবের (ভগবান কৃষ্ণের জন্ম লাভের পরের দিন নন্দ মহারাজ অর্থাৎ ভগবান কৃষ্ণের পিতা যে উৎসব পালন করেন) দিন ভারতের কলকাতায় আবির্ভূত হন।তিনি এইচ.জি.সি.  এ.সি ভক্তিবেদান্ত স্বামী প্রভুপাদ নামেও পরিচিত।তারঁ পিতা ছিলেন ভগবান  শ্রীকৃষ্ণের একজন শুদ্ধ ভক্ত।তিনি সর্বদা মহাত্ম‍্যাদের তাঁর গৃহে সেবা গ্রহণের জন‍্য আপ‍্যায়ন করতেন এবং তাদেরকে অনুরোধ করতেন তাঁর পুত্রকে আশির্বাদান্বিত করতে,যেন সে ভগবান কৃষ্ণের সবচেয়ে প্রিয় ভক্ত এবং প্রেয়সী রাধারানীর শুদ্ধ ভক্ত হতে পারে।শ্রীল প্রভুপাদের পিতা একদিন তাকে একটি ছোট গাড়ি কিনে দিয়েছিলেন।তাই প্রভুপাদ একজন ছোট শিশু হওয়া সত্ত্বেও পরিজনবেষ্টিত শ্রীকৃষ্ণকে কেন্দ্র করে একটি ছোট অনুষ্ঠানের আয়োজন করেছিলেন।জগন্নাথ পুরীতে যেমন রথযাত্রা মহোৎসবে রথে অধিষ্ঠিত জগন্নাথ-বলদেব-সুভদ্রা মহারাণীর রথ টানা হয়।
+পরবর্তীতে প্রভুপাদ ব্রিটিশদের দ্বারা পরিচালিত কলকাতার স্কটিশ চার্চ কলেজে ভর্তি হন।তারপর প্রভুপাদ মহাত্ম‍্যা গান্ধীজীর অসহযোগ আন্দোলনে যোগদান করেন এবং যদিও ডিপ্লোমা ডিগ্রি পাওয়ার জন‍্য সমস্ত দাবিগুলো পূরণ তিনি  করেছিলেন কিন্ত প্রতিবাদের অংশ হিসেবে তিনি ঐ কলেজ থেকে তাঁর ডিপ্লোমা ডিগ্রি গ্রহণে অসম্মত হন।এরপর শ্রীল প্রভুপাদের পিতৃবন্ধু ডা. বোস তাকে তাঁর ক‍্যামিকেল কোম্পানির ম‍্যানেজার করেছিলেন।
+১৯১৮ সালে প্রভুপাদ বিবাহ বন্ধনে আবদ্ধ হন এবং সংসার জীবনে প্রবেশ করেন।১৯২২ সালে কলকাতায় প্রথমবারের মতো তিনি তাঁর পারমার্থিক গুরুদেব শ্রীল ভক্তিসিদ্ধান্ত গোস্বামীজীর দেখা পান।ভক্তিসিদ্ধান্ত সরস্বতী ঠাকুর ছিলেন একজন বিশিষ্ট ধর্মীয় পন্ডিত।তিনি চৌষট্টিটি গৌড়ীয় মঠের(বৈদিক প্রতিষ্টান) প্রতিষ্ঠাত‍া।তিনি তরুণ প্রভুপাদকে পছন্দ করেছিলেন এবং বৈদিক শিক্ষা প্রচারের উদ্দেশ্যে  জীবন উৎসর্গ করতে তাকে বুঝিয়েছিলেন।
+শ্রীল প্রভুপাদ তাকে তখন গুরু হিসেবে হৃদয়ে গ্রহণ করেছিলেন।এগারো বছর পর ১৯৩৩ সালে এলাহাবাদে তিনি আনুষ্ঠানিকভাবে দীক্ষা গ্রহণ করেন।১৯২২ সালে প্রথম সাক্ষাতেই শ্রীল ভক্তিসিদ্ধান্ত সরস্বতী ঠাকুর শ্রীল প্রভুপাদকে ইংরেজি ভাষার মাধ‍্যমে বৈদিক জ্ঞান প্রচারের জন‍্য অনুরোধ করেছিলেন।পরবর্তীতে শ্রীল প্রভুপাদ ভগবদগীতার ভাষ‍্য রচনা করেন এবং ১৯৪৪ সালে তিনি ইংরেজি পাক্ষিক ম‍্যাগাজিন 'ব‍্যাক টু গডহেড' প্রকাশ করা শুরু করেন।এই প্রকাশনার কাজ বজায় রাখা ছিল একটি সংগ্রাম।শ্রীল প্রভুপাদ এককভাবে সম্পাদনা করতেন,পান্ডুলিপি লিখতেন, প্রুফ সংগ্রহ করে পরীক্ষা করতেন এবং সংশোধন করতেন।এমনকি তিনি ম‍্যাগাজিনের কপিগুলো মানুষের কাছে পৌঁছে দেওয়ার কাজও করতেন।এই ম‍্যাগাজিন প্রকাশ শুরু হওয়ার পর থেকে কখনো এর প্রকাশনা থেমে থাকেনি।এখনো পাশ্চাত্যে শ্রীল প্রভুপাদের শিষ‍্যরা এই ম‍্যাগাজিনের প্রকাশনা অব‍্যাহত রেখেছে।এই ম‍্যাগাজিনটি এখন ত্রিশটি ভাষায় প্রকাশিত হয়।শ্রীল প্রভুপাদের ভক্তি এবং আধ‍্যাত্মিক-দর্শনের জন‍্য গৌড়ীয় বৈষ্ণব সমাজ ১৯৪৭ সালে তাকে ' 'ভক্তিবেদান্ত' উপাধিতে ভূষিত করে।
+পশ্চিমা দেশগুলোতে ভগবান শ্রীকৃষ্ণের বাণী পৌঁছে দেওয়ার জন‍্য এ.সি ভক্তিবেদান্ত স্বামী প্রভুপাদ তাঁর পারমার্থিক গুরু শ্রীল ভক্তিসিদ্ধান্ত সরস্বতী ঠাকুরের আদেশানুসারে ইংরেজি ভাষায় বৈদিক সাহিত্য অনুবাদের এবং লেখার কাজ শুরু করেন।১৯৫০ সালে তাঁর পঠন এবং লেখনীর কাজে অধিক সময় উৎসর্গ করার জন‍্য বিবাহিত জীবন থেকে অব‍্যাহতি গ্রহণ করে বানপ্রস্থ গ্রহণ করেন।শ্রীল প্রভুপাদ পবিত্র-ভূমি বৃন্দাবনে গিয়ে মধ‍্যযুগের ঐতিহাসিক রাধা-দামোদর মন্দিরে স্নিগ্ধ পরিবেশে বাস করেন।সেখানে তিনি কিছু বছরের জন‍্য গভীরভাবে অধ‍্যয়ন এবং লেখার কাছে নিমগ্ন হয়ে যান।১৯৫৯ সালে প্রভুপাদ সন্ন‍্যাস গ্রহণ করেন। রাধা-দামোদর মন্দিরে শ্রীল প্রভুপাদ তাঁর জীবনের শ্রেষ্ঠ কৃতি আঠারো হাজার শ্লোক সম্বলিত 'শ্রীমদ-ভাগবত' অনুবাদ করেন।তিনি 'পরলোকে সুগম যাত্রা'         নামে একটি গ্রন্থও রচনা করেছিলেন।
+ভাগবতমের তিনটি স্কন্ধ প্রকাশের পর প্রভুপাদ তার পারমার্থিক গুরুদেবের আদেশ প্রতিপালনের উদ্দেশ‍্য ১৯৬৫ সালের সেপ্টেম্বর মাসে আমেরিকায় যান।পরবর্তীতে প্রভুপাদ ৬০টির বেশি টীকাযুক্ত প্রামাণিক অনুবাদ করেছিলেন।তিনি ভারতবর্ষের দার্শনিক এবং ধর্মীয় ধ্রুপদী রচনার সারাংশ রচনা করেছিলেন।প্রভুপাদ প্রথম যখন একটি পণ‍্যবাহী জাহাজে করে আমেরিকায় যান তখন তিনি ছিলেন কপর্দকশূণ‍্য।
+আমেরিকা আগমনের এক বছর পর ১৯৬৬ সালের জুলাই মাসে শ্রীল প্রভুপাদ আন্তর্জাতিক কৃষ্ণ ভাবনামৃত সঙ্গ(ইসকন) প্রতিষ্ঠা করেন।কিন্তু ঐ একটি বছর ছিল প্রভুপাদের জন‍্য অত‍্যন্ত সংগ্রামের।ইসকন প্রতিষ্ঠার পর প্রভুপাদ পৃথিবীব‍্যাপি 'হরে কৃষ্ণ' মহামন্ত্র ভজন এবং কীতর্নের রীতি চালু করেন এবং বৈদিক জ্ঞান প্রচার করতে থাকেন।তিনি বারো বার বিশ্বভ্রমণ করেছিলেন এবং ভক্তিযোগ ও হরিনাম সংকীর্তন প্রচারের জন‍্য পশ্চিমা বিশ্বের সব উল্লেখযোগ্য রাষ্ট্রগুলোতে গিয়েছিলেন।তিনি হাজার হাজার বক্তব্য দিয়েছিলেন,হাজারো চিঠি লিখেছিলেন এবং অনেক পন্ডিত ব‍্যক্তি এবং বিশিষ্টজনদের সঙ্গে দেখা করেছিলেন।তারা প্রভুপাদের প্রচেষ্টাকে সাধুবাদ জানিয়েছিলেন। শ্রীচৈতন‍্য মহাপ্রভুর বাণী, 'পৃথিবীতে আছে যত নগরাদি গ্রাম।সর্বত্র প্রচার হইবে মোর এই নাম।'প্রভুপাদ মহাপ্রভুর এই বাণীকে বাস্তবরূপ দান করেছিলেন।
+            ১৪ই নভেম্বর ১৯৭৭ সালে অপ্রকট হওয়ার পূর্বে প্রভুপাদ একশোটিরও বেশি আশ্রম,বৈদিক শিক্ষালয়,মন্দির এবং ইনস্টিটিউট নির্মান করেছিলেন।এমনকি বৈদিক সভ‍্যতার বিস্তার ঘটাতে তিনি কৃষি সভ‍্যতার পত্তনের উদ্দেশ্যে কৃষি খামারও নির্মাণ করেছিলেন।প্রভুপাদ ভারতবর্ষে কয়েকটি আন্তর্জাতিক মন্দির প্রকল্প এবং বৈদিক সংস্কৃতি কেন্দ্র নির্মাণে প্রয়াসী হয়েছিলেন।পশ্চিমবঙ্গের শ্রীধাম মায়াপুর প্রভুপাদের তেমনি একটি স্বপ্নের প্রকল্প।প্রভুপাদ এটিকে পরিকল্পিতভাবে একটি আধ‍্যাত্মিক নগরী হিসেবে গড়ে তুলতে চেয়েছিলেন।"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+        >
+    </ScrollView>
+
+
+</LinearLayout>
